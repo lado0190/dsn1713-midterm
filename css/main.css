@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sarala:wght@400;700&display=swap');
+
+/* Set custom variables here */
+body {
+  background-color: var(--bs-body-bg);
+  color: #222;
+  font-family: "Georgia", serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navbar */
+.navbar-brand img {
+  object-fit: cover;
+}
+
+/* Hero */
+.hero {
+  min-height: 520px;
+  background-image: url("hero-bg-img.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  color: #222;
+}
+
+.hero .text-overlay {
+  padding: 4rem 1rem;
+  color: #222;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.hero-title {
+  font-family: "Georgia", serif;
+  font-size: 2.25rem;
+}
+
+.hero-sub {
+  max-width: 680px;
+  margin: 0 auto 1.25rem;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--bs-primary) !important;
+  border-color: var(--bs-primary) !important;
+  color: var(--light-color) !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  filter: brightness(0.9);
+}
+
+/* How It Works */
+.icon {
+  font-size: 2rem;
+}
+
+/* Testimonials */
+.testimonial-img {
+  width: 88px;
+  height: 88px;
+  object-fit: cover;
+}
+
+/* CTA Section */
+.cta {
+  background-image: url("cta-bg.png");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.cta a.btn {
+  margin-left: 1rem;
+}
+
+/* Footer */
+footer a {
+  color: var(--light-color);
+}
+
+/* Utilities */
+.bg-light {
+  background-color: #f6f3ed !important;
+}
+
+/* Responsive Typography */
+@media (min-width: 992px) {
+  .hero-title {
+    font-size: 3rem;
+  }
+}
+
+
+
+
+body {
+  background-color: var(--bs-body-bg);
+  color: #222;
+  font-family: "Georgia", serif;
+}
+
+a { text-decoration: none; }
+
+.navbar-brand img { object-fit: cover; }
+
+.hero {
+  min-height: 520px;
+  background: url('hero-bg-img.png') no-repeat center/cover;
+  display: flex;
+  align-items: center;
+  color: #222;
+}
+
+.hero .text-overlay {
+  padding: 4rem 1rem;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+}
+
+.hero-title {
+  font-family: 'Georgia', serif;
+  font-size: 2.25rem;
+}
+
+.hero-sub {
+  max-width: 680px;
+  margin: 0 auto 1.25rem;
+}
+
+.btn-primary {
+  background-color: var(--bs-primary) !important;
+  border-color: var(--bs-primary) !important;
+  color: var(--light-color) !important;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  filter: brightness(0.9);
+}
+
+.icon { font-size: 2rem; }
+
+.testimonial-img {
+  width: 88px;
+  height: 88px;
+  object-fit: cover;
+}
+
+.cta {
+  background: url('cta-bg.png') no-repeat center/cover;
+  color: #fff;
+}
+
+.cta a.btn { margin-left: 1rem; }
+
+footer a { color: var(--light-color); }
+
+.bg-light { background-color: #f6f3ed !important; }
+
+@media (min-width: 992px) {
+  .hero-title { font-size: 3rem; }
+}
+
+.navbar-brand {
+  color: #F6F3ED;
+}
+
+body {
+  font-family: "Sarala", sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: "Merriweather", serif;
+}
+
+#hero {
+  height: 800px;
+  background-color: #E4E6DB;
+  background-image: url(../images/hero-bg-img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#hero .d-flex {
+  height: 800px;
+}
+
+#cta {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/cta-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#cta .d-flex {
+  height: 400px;
+}
+
+section:not(#hero):not(#cta){
+  padding: 60px 0;
+}
+
+@media(min-width: 993px){
+  section:not(#hero):not(#cta){
+    padding: 100px 0;
+  }
+}
+ 
